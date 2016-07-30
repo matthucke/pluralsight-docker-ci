@@ -5,7 +5,8 @@ deployment:
   dockerhub:
     branch: master
     commands:
-      - curl -H 'Content-Type: application/json' --data '{"build": true}' -X POST $DOCKERHUB_URL
+      - 
+        curl -H 'Content-Type: application/json' --data '{"build": true}' -X POST $DOCKERHUB_URL
 
 test:
   override:    
